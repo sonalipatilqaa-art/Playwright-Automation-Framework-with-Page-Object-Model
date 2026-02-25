@@ -57,6 +57,6 @@ jobs:
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: Playwright Test Report
-          to: manager@example.com
+          to: sonalipatil.qaa@gmail.com
           from: Playwright CI <ci@example.com>
           body: ${{ steps.parse_results.outputs.summary }}
