@@ -59,5 +59,4 @@ jobs:
           subject: Playwright Test Report
           to: manager@example.com
           from: Playwright CI <ci@example.com>
-          content_type: text/html
           body: ${{ steps.parse_results.outputs.summary }}
